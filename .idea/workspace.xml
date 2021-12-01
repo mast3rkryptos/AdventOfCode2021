@@ -2,58 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="417f0622-417d-4594-9153-a6b0db05b9fd" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Day01.py" beforeDir="false" afterPath="$PROJECT_DIR$/Day01.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day01Part2_Input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Day01_Input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day02Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day03Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day04Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day05Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day06Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day07Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day08Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day09Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day13Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day13Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day14Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day14Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day15Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day16Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day16Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day17Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day17Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day18Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day18Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day19Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day19Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day20Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day20Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day21Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day21Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day22Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day22Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day23Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day23Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day24Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day24Part2_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day25Part1_Input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day25Part2_Input.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -65,23 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Day01.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Day01.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day01.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="561">
-              <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+            <state relative-caret-position="442">
+              <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -120,9 +66,9 @@
       <list>
         <option value="$PROJECT_DIR$/Solutions/Day01.py" />
         <option value="$PROJECT_DIR$/Day01Part1_Input.txt" />
-        <option value="$PROJECT_DIR$/main.py" />
-        <option value="$PROJECT_DIR$/Day01.py" />
         <option value="$PROJECT_DIR$/Day01_Input.txt" />
+        <option value="$PROJECT_DIR$/Day01.py" />
+        <option value="$PROJECT_DIR$/main.py" />
       </list>
     </option>
   </component>
@@ -234,16 +180,6 @@
     <entry file="file://$PROJECT_DIR$/Day02.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="36" column="27" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day01_Input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="33983">
@@ -253,8 +189,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="561">
-          <caret line="33" column="46" selection-start-line="33" selection-start-column="46" selection-end-line="33" selection-end-column="46" />
+        <state relative-caret-position="442">
+          <caret line="26" column="33" lean-forward="true" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="37" column="25" selection-start-line="37" selection-start-column="25" selection-end-line="37" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -35,6 +35,7 @@ def init():
 
 def main():
     startTime = time.time()
+    print(f"Start Time: {time.asctime(time.localtime(startTime))}")
     Day01.Part1("Day01_Input.txt")
     Day01.Part2("Day01_Input.txt")
     Day02.Part1("Day02_Input.txt")
@@ -85,7 +86,7 @@ def main():
     Day24.Part2("Day24_Input.txt")
     Day25.Part1("Day25_Input.txt")
     Day25.Part2("Day25_Input.txt")
-    print(f"Execution Time: {time.time() - startTime}")
+    print(f"Execution Time: {time.time() - startTime:.3f}")
 
 
 if __name__ == "__main__":

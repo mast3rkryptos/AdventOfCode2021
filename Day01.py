@@ -5,7 +5,7 @@ def Part1(input):
         for line in f:
             increaseCount += 1 if int(line) > previous else 0
             previous = int(line)
-    print(increaseCount)
+    print(f"Day 01, Part 1: {increaseCount}")
 
 
 def pushQueue(queue, value):
@@ -32,4 +32,4 @@ def Part2(input):
                 pushQueue(current, int(line))
                 increaseCount += 1 if sumQueue(current) > sumQueue(previous) else 0
                 pushQueue(previous, int(line))
-    print(increaseCount)
+        print(f"Day 01, Part 2: {increaseCount}")
