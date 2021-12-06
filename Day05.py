@@ -92,6 +92,7 @@ def Part2(input):
                     x -= 1
                     y += 1
                     recordPoint(points, x, y)
+                 # Final point covered by while loops
     count = 0
     for point in points:
         if points[point] > 1:

@@ -103,9 +103,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Day05.py</url>
-          <line>37</line>
-          <option name="timeStamp" value="22" />
+          <url>file://$PROJECT_DIR$/Day06.py</url>
+          <line>29</line>
+          <option name="timeStamp" value="24" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
