@@ -23,7 +23,7 @@ def Part1(input):
     print(f"Day 06, Part 1: {len(school)}")
 
 
-def advanceDayDict(school):
+def advanceDayPart2(school):
     zeroDayFishCount = school[0]
     for i in range(len(school) - 1):
         school[i] = school[i + 1]
@@ -32,14 +32,14 @@ def advanceDayDict(school):
 
 
 def Part2(input):
-    school = {0:0, 1:0, 2:0, 3:0, 4:0, 5:0, 6:0, 7:0, 8:0}
+    school = [0, 0, 0, 0, 0, 0, 0, 0, 0]
     with open(input) as f:
         splitLine = f.readline().split(",")
         for fish in splitLine:
             school[int(fish)] += 1
     for i in range(256):
-        advanceDayDict(school)
+        advanceDayPart2(school)
     sum = 0
-    for key in school:
-        sum += school[key]
+    for value in school:
+        sum += value
     print(f"Day 06, Part 2: {sum}")
