@@ -24,10 +24,8 @@ def Part1(input):
     print(f"Day 10, Part 1: {score}")
 
 def Part2(input):
-    stack = []
     points = {'(':1, '[':2, '{':3, '<':4}
     scores = []
-    score = 0
     with open(input) as f:
         for line in f:
             stack = []
