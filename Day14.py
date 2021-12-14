@@ -56,9 +56,6 @@ def Part2(input):
         pairCounts = tempPairCounts.copy()
         #print(i + 1, pairCounts)
 
-
-    lce = -1
-    mce = 0
     counts = {}
     for c in range(ord('A'), ord('Z')+1):
         counts[chr(c)] = 0 if chr(c) != polymer[0] and chr(c) != polymer[-1] else 1 #everything except the first and last polymer character are double-counted, adjust accordingly
