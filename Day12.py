@@ -44,20 +44,22 @@ def LazyFunction(path):
 
 
 def FindPathP2(links, paths):
+    fieldTripComplete = {}
     for path in paths:
+        fieldTripComplete[str(path)] = False if str(path) not in fieldTripComplete else fieldTripComplete[str(path)]
         if path[-1] == "end":
             continue
         else:
             for link in links[path[-1]]:
                 if link != "start" and (link.isupper()
-                                        or (LazyFunction(path) and link.islower() and list(path).count(link) < 2)
-                                        or (not LazyFunction(path) and link.islower() and link not in path)):
+                                        or (not fieldTripComplete[str(path)] and link.islower() and list(path).count(link) < 2)
+                                        or (fieldTripComplete[str(path)] and link.islower() and link not in path)):
                     tempPath = path.copy()
                     paths.append(tempPath)
                     paths[-1].append(link)
+                    fieldTripComplete[str(paths[-1])] = fieldTripComplete[str(path)] or link.islower() and list(paths[-1]).count(link) == 2
                 else:
                     continue
-
 
 def Part2(input):
     links = {}
@@ -81,4 +83,4 @@ def Part2(input):
     for path in paths:
         count += 1 if path[0] == "start" and path[-1] == "end" else 0
 
-    print(f"Day 12, Part 02: {count}")
+    print(f"Day 12, Part 02: {count} <OPTIMIZE LATER>")
