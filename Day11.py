@@ -26,10 +26,6 @@ def Part1(input):
             for x in range(_1D_SIZE):
                 grid[y].append(int(line[x]))
 
-    print(f"Before any steps:")
-    for y in range(_1D_SIZE):
-        print(grid[y])
-    print()
     count = 0
     for i in range(100):
         # Initial energy increase
@@ -47,12 +43,6 @@ def Part1(input):
             for x in range(_1D_SIZE):
                 grid[y][x] = 0 if grid[y][x] == -1 else grid[y][x]
 
-        # Print out grid
-        print(f"After step {i + 1}:")
-        for y in range(_1D_SIZE):
-            print(grid[y])
-        print()
-
     print(f"Day 11, Part 01: {count}")
 
 
@@ -66,10 +56,6 @@ def Part2(input):
             for x in range(_1D_SIZE):
                 grid[y].append(int(line[x]))
 
-    print(f"Before any steps:")
-    for y in range(_1D_SIZE):
-        print(grid[y])
-    print()
     count = 0
     keepLooking = True
     while keepLooking:
@@ -96,11 +82,5 @@ def Part2(input):
             for x in range(_1D_SIZE):
                 allZeroes &= grid[y][x] == 0
         keepLooking = not allZeroes
-
-        # Print out grid
-        print(f"After step {count}:")
-        for y in range(_1D_SIZE):
-            print(grid[y])
-        print()
 
     print(f"Day 11, Part 02: {count}")
