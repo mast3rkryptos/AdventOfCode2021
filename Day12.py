@@ -61,6 +61,22 @@ def FindPathP2(links, paths):
                 else:
                     continue
 
+def FindPathP2r2(links, paths):
+    fieldTripComplete = {}
+    for path in paths:
+        fieldTripComplete[str(path)] = False if str(path) not in fieldTripComplete else fieldTripComplete[str(path)]
+        if path[-1] == "end":
+            continue
+        else:
+            for link in links[path[-1]]:
+                if link.isupper() or (not fieldTripComplete[str(path)] and link.islower()) or (link.islower() and link not in path):
+                    tempPath = path.copy()
+                    paths.append(tempPath)
+                    paths[-1].append(link)
+                    fieldTripComplete[str(paths[-1])] = fieldTripComplete[str(path)] if fieldTripComplete[str(path)] else list(str(paths[-1])).count(link) == 2
+                else:
+                    continue
+
 def Part2(input):
     links = {}
     paths = []
@@ -77,7 +93,7 @@ def Part2(input):
                 links[splitLine[1]] = [splitLine[0]]
 
     paths.append(["start"])
-    FindPathP2(links, paths)
+    FindPathP2r2(links, paths)
 
     count = 0
     for path in paths:

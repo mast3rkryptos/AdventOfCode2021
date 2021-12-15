@@ -59,7 +59,7 @@ def main():
     Day11.Part1("Day11_Input.txt")
     Day11.Part2("Day11_Input.txt")
     Day12.Part1("Day12_Input.txt")
-    Day12.Part2("Day12_Input.txt")
+    #Day12.Part2("Day12_Input.txt")
     Day13.Part1("Day13_Input.txt")
     Day13.Part2("Day13_Input.txt")
     Day14.Part1("Day14_Input.txt")
