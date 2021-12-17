@@ -33,7 +33,7 @@ def Part1(input):
     for path in paths:
         count += 1 if path[0] == "start" and path[-1] == "end" else 0
 
-    print(f"Day 12, Part 01: {count}")
+    print(f"Day 12, Part 1: {count}")
 
 
 def LazyFunction(path):
@@ -99,4 +99,4 @@ def Part2(input):
     for path in paths:
         count += 1 if path[0] == "start" and path[-1] == "end" else 0
 
-    print(f"Day 12, Part 02: {count} <OPTIMIZE LATER>")
+    print(f"Day 12, Part 2: {count} <OPTIMIZE LATER>")

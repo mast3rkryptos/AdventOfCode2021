@@ -31,7 +31,7 @@ def Part1(input):
                 dots = tempDots.copy()
                 break
 
-    print(f"Day 13, Part 01: {len(dots)}")
+    print(f"Day 13, Part 1: {len(dots)}")
 
 
 def Part2(input):
@@ -66,7 +66,7 @@ def Part2(input):
                             tempDots.append((dot[0], dot[1])) if (dot[0], dot[1]) not in tempDots else None
                 dots = tempDots.copy()
 
-    print("Day 13, Part 02: ")
+    print("Day 13, Part 2: ")
     maxX = 0
     maxY = 0
     for dot in dots:

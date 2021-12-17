@@ -26,7 +26,7 @@ def Part1(input):
         lce = polymer.count(chr(c)) if polymer.count(chr(c)) < lce and chr(c) in polymer else lce
         mce = polymer.count(chr(c)) if polymer.count(chr(c)) > mce else mce
 
-    print(f"Day 14, Part 01: {mce - lce}")
+    print(f"Day 14, Part 1: {mce - lce}")
 
 def Part2(input):
     pairCounts = {}
@@ -64,4 +64,4 @@ def Part2(input):
     minVal = max(counts.values())
     for value in counts.values():
         minVal = value if value < minVal and value != 0 else minVal
-    print(f"Day 14, Part 02: {int((max(counts.values()) - minVal) / 2)}")
+    print(f"Day 14, Part 2: {int((max(counts.values()) - minVal) / 2)}")

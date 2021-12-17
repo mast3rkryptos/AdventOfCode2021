@@ -43,7 +43,7 @@ def Part1(input):
             for x in range(_1D_SIZE):
                 grid[y][x] = 0 if grid[y][x] == -1 else grid[y][x]
 
-    print(f"Day 11, Part 01: {count}")
+    print(f"Day 11, Part 1: {count}")
 
 
 def Part2(input):
@@ -83,4 +83,4 @@ def Part2(input):
                 allZeroes &= grid[y][x] == 0
         keepLooking = not allZeroes
 
-    print(f"Day 11, Part 02: {count}")
+    print(f"Day 11, Part 2: {count}")

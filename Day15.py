@@ -41,7 +41,7 @@ def Part1(input):
         x = nextX
         y = nextY
 
-    print(f"Day 15, Part 01: {nodes[(len(grid[0]) - 1, len(grid) - 1)][1]} <OPTIMIZE LATER>")
+    print(f"Day 15, Part 1: {nodes[(len(grid[0]) - 1, len(grid) - 1)][1]} <OPTIMIZE LATER>")
 
 
 def Part2(input):
@@ -100,4 +100,4 @@ def Part2(input):
         x = next[0]
         y = next[1]
 
-    print(f"Day 15, Part 02: {nodes[(len(grid[0]) - 1, len(grid) - 1)][1]} <OPTIMIZE LATER>")
+    print(f"Day 15, Part 2: {nodes[(len(grid[0]) - 1, len(grid) - 1)][1]} <OPTIMIZE LATER>")
