@@ -101,7 +101,7 @@ def main():
     print(f"Lap Time: {timer.Lap()}") if verbose else None
     Day16.Part2("Day16_Input.txt")
     print(f"Lap Time: {timer.Lap()}") if verbose else None
-    Day17.Part1("Day17_Input.txt")
+    #Day17.Part1("Day17_Input.txt") #SLOW
     print(f"Lap Time: {timer.Lap()}") if verbose else None
     Day17.Part2("Day17_Input.txt")
     print(f"Lap Time: {timer.Lap()}") if verbose else None
